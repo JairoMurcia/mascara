@@ -52,7 +52,7 @@ def aplicar_mascara(data,m,f,c):
 
 
 
-im = Image.open("narancia.jpg")
+im = Image.open("foto.jpg")
 col =  im.size[0]
 row=im.size[1]
 data = np.zeros((row,col))
